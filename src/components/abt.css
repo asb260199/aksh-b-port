@@ -1,0 +1,52 @@
+.abt {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+  
+.abt h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+  
+.abt p {
+    font-size: 1em;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+  
+.work {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+  
+.work-item {
+    width: 30%;
+    margin-bottom: 50px;
+}
+  
+.work-item img {
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  
+.work-item h3 {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+  
+.work-item p {
+    font-size: 1rem;
+    line-height: 1.3;
+    margin-top: 10px;
+}
+  
+@media only screen and (max-width: 768px) {
+    .work-item {
+      width: 50%;
+    }
+}

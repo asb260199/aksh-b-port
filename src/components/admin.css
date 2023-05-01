@@ -1,0 +1,89 @@
+.admin-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.logo-container img {
+    width: auto;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-ad {
+  background-color: #f2f2f2;
+  padding: 30px 45px 30px 30px;
+  border-radius: 5px;
+}
+
+.header-ad {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.inp-id, .inp-pass {
+  width: 98%;
+  padding: 10px;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+.signBtn, .logBtn  {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #509adb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signBtn:hover {
+  background-color: #23c4bc;
+}
+
+.logBtn:hover {
+  background-color: #23c4bc;
+}
+
+.logBtn {
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4c9eaf;
+  color: white;
+}
+
+/*Responsive Page */
+
+  @media only screen and (max-width: 600px) {
+    .form-ad {
+      padding: 50px;
+    }
+
+    .signBtn, .logBtn {
+      font-size: 12px;
+    }
+  }

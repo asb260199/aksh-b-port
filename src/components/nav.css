@@ -1,0 +1,156 @@
+/* Navbar */
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #282A35;
+  }
+  
+  .nav-logo a img {
+    width: auto;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 10px;
+  }
+
+  .nav-hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .hamburger-line {
+    width: 25px;
+    height: 2.5px;
+    background-color: #f1f1f1;
+    margin-right: 10px;
+  }
+
+  .nav-links li:hover {
+    background-color: #509adb;
+  }
+  
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -350px;
+    width: 270px;
+    height: 100%;
+    background-color: #3c4057;
+    padding: 10.5px 0px 10px 0px;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    text-align: center;
+  }
+  
+  .nav-links.show-menu {
+    right: 0;
+  }
+  
+  .nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 10px 0;
+  }
+  
+  .nav-links a {
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    
+  }
+
+  .cross img{
+    width: 40px;
+    height: auto;
+    display: flex;
+    cursor: pointer;
+    padding-left: 7px;
+  }
+
+/* home page */
+  
+  .header-content {
+    margin-top: 15em;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+  }
+  
+  .h1 {
+    font-size: 2.7em;
+    margin-bottom: 10px;
+  }
+  
+  .h2 {
+    font-size: 2.7em;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 12px;
+  }
+  
+  .h3 {
+    font-size: 2em;
+  }
+
+  .btns {
+    font-size: 16px;
+    justify-content: space-between;
+    margin: 1.2em;
+    color: white;
+  }
+  
+  .btn:hover {
+    background-color: #23c4bc;
+  }
+
+  .btn {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #509adb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .header-content.home-hide{
+    display: none;
+  }
+
+/* Responsive page */
+
+  @media (max-width:900px) {
+    
+    .btns{
+        font-size: 10px;
+    }
+
+    .h1 {
+      font-size: 20px;
+    }
+
+    .h2 {
+      font-size: 25px;
+    }
+    
+    .h3 {
+      font-size: 20px;
+    }
+  }
+
