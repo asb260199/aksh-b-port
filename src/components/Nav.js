@@ -64,7 +64,7 @@ export default function Nav() {
       <div className="h3">Software Development Engineer & a Trader</div>
       <div className="btns">
           <Link to="/abr.pdf" target="_blank"><button className="btn">Download CV</button></Link>
-          <Link to="/Contact"><button className="btn">Contact Me</button></Link>
+          <Link to="/Contact"><button className="btn" onClick={function(event){handleHome()}}>Contact Me</button></Link>
       </div>
     </div>
     </>
