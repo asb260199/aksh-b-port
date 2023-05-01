@@ -44,19 +44,19 @@ export default function Contact() {
     <div className="contact-container">
       <div className="contact-icons">
         <Link to="https://www.instagram.com/stocks.insights/" target="_blank" rel="noreferrer">
-          <img src="https://asb260199.github.io/ab-app/instagram.png" alt="Instagram" />
+          <img src="https://asb260199.github.io/aksh-b-port/instagram.png" alt="Instagram" />
         </Link>
         <Link to="https://www.linkedin.com/in/akshay-bodke-480603144" target="_blank" rel="noreferrer">
-          <img src="https://asb260199.github.io/ab-app/linkedin.png" alt="LinkedIn" />
+          <img src="https://asb260199.github.io/aksh-b-port/linkedin.png" alt="LinkedIn" />
         </Link>
         <Link to="mailto:asb260199@gmail.com" rel="noreferrer">
-          <img src="https://asb260199.github.io/ab-app/gmail.png" alt="Gmail" />
+          <img src="https://asb260199.github.io/aksh-b-port/gmail.png" alt="Gmail" />
         </Link>
         <Link to="https://github.com/asb260199" target="_blank" rel="noreferrer">
-          <img src="https://asb260199.github.io/ab-app/github.png" alt="Github" />
+          <img src="https://asb260199.github.io/aksh-b-port/github.png" alt="Github" />
         </Link>
         <Link to="tel:+917066241090">
-          <img src="https://asb260199.github.io/ab-app/viber.png" alt="Phone" />
+          <img src="https://asb260199.github.io/aksh-b-port/viber.png" alt="Phone" />
         </Link>
       </div>
       <div className="contact-form">
