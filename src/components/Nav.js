@@ -63,7 +63,7 @@ export default function Nav() {
       <div className="h2">Akshay Sudhakar Bodke</div>
       <div className="h3">Software Development Engineer & a Trader</div>
       <div className="btns">
-          <Link to="https://asb260199.github.io/ab-app/abr.pdf" target="_blank"><button className="btn">Download CV</button></Link>
+          <Link to="https://asb260199.github.io/aksh-b-port/abr.pdf" target="_blank"><button className="btn">Download CV</button></Link>
           <Link to="/Contact"><button className="btn" onClick={function(event){handleHome()}}>Contact Me</button></Link>
       </div>
     </div>
